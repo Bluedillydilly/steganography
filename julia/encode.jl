@@ -1,4 +1,4 @@
-# Program to enoce an image with text using the least significant bit
+# Program to enoce an image with text using a least significant bit algorithm
 
 function main()
     println("Welcome")
@@ -20,6 +20,12 @@ end
 function cli_mode()
     println("Entered command line input mode")
     println("Enter text to encode into the image.")
+end
+
+function image_stuff()
+    A = rand( 3, 10, 10 )
+    img = colorview( RGB, A )
+
 end
 
 main()
